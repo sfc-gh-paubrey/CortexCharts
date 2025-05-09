@@ -37,7 +37,7 @@ st.set_page_config(
 # Each path points to a YAML file defining a semantic model
 AVAILABLE_SEMANTIC_MODELS_PATHS = [
     "SYNTHEA.SYNTHEA.SYNTHEA/synthea_joins_03.yaml",
-    "NTA.PUBLIC.CORTEX_FILESinteractions_semantic_model.yaml",
+    "NTA.PUBLIC.CORTEX_FILES/interactions_semantic_model.yaml",
 ]
 API_ENDPOINT = "/api/v2/cortex/analyst/message"
 FEEDBACK_API_ENDPOINT = "/api/v2/cortex/analyst/feedback"
